@@ -92,11 +92,13 @@ If you don't want to run Jupyter Notebooks, you can use Git LFS to download the 
     text = "Blockchain is revolutionizing education, providing personalized learning experiences to students all over the world."
     predicted_label = predict_text_category(text, model, tokenizer)
     print(f"The predicted label for the given text is: {predicted_label}")
+    (1)
     ```
 
 ### Example Predictions
 
 ```python
-text = "Blockchain is revolutionizing education, providing personalized learning experiences to students all over the world."
+text = "Let us eat together any burger."
 predicted_label = predict_text_category(text, model, tokenizer)
 print(f"The predicted label for the given text is: {predicted_label}")
+(0)
